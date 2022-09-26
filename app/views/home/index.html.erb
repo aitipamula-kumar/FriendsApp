@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>webApp</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>WebApp Home Page</h2>
+<h4>Demo app </h4>
+
+
+
+<header>
+  <h2>WebApp</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Instagram</a></li>
+      <li><a href="#">Facebook</a></li>
+      <li><a href="#">Snapchat</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Social Media Friends</h1>
+    <p>The easiest way to connect with people online is to focus on finding the communities you really care about.</p>
+    <p>Social media friends are people you probably share information with, share ideas with, share stories and emotions with. But this all takes place digitally rather than in person. Which, when you think about it, is just another form of communication</p>
+  </article>
+</section>
+
+<footer>
+  <p>Lets Find Online Friends</p>
+</footer>
+
+</body>
+</html>
+

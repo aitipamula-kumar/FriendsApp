@@ -1,0 +1,16 @@
+
+
+<div style="background:lightblue;text-align:center;padding:20px;">
+<%= render @friend %>
+</div>
+
+
+
+
+<div style="text-align:center">
+<br/>
+  <%= link_to "Edit this friend", edit_friend_path(@friend), class:"btn btn-dark" %> 
+  <%= link_to "Back to friends", friends_path, class:"btn btn-info" %>
+<br/><br/>
+  <%= button_to "Delete this friend", @friend, method: :delete , class:"btn btn-danger"%>
+</div>
